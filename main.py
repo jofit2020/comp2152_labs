@@ -4,7 +4,6 @@ import random
 # Put all the functions into another file and import them
 import function
 
-
 # Game Flow
 # Define two Dice
 small_dice_options = list(range(1, 7))  # Max combat strength is 6
@@ -96,4 +95,3 @@ while m_health_points > 0 and health_points > 0:
             input("The hero strikes!! (Press enter)")
             # Hero Attacks Back
             m_health_points = function.hero_attacks(combat_strength, m_health_points)
-

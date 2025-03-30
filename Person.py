@@ -6,6 +6,7 @@ class Person:
             self.__height=height
             self.public_prop="I'm public"
             print("Constructing the Person Object")
+
 # Getter
         def get_name(self):
             return self.__name
@@ -43,4 +44,3 @@ p1.set_name("Anna")
 print(p1.name) # Expected output: "Anna"
 p1.name="John"
 print(p1.name) # Expected output: "John"
-
