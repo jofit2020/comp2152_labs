@@ -4,6 +4,24 @@ import random
 # Put all the functions into another file and import them
 import function
 
+from mammal import Mammal
+from Person import Person
+from tick import  Tick
+from puma import Puma
+
+mammal_obj=Mammal(20)
+mammal_obj.speak()
+
+person_obj=Person("Fits",20,5)
+person_obj.heart_obj.beat()
+
+tick_obj=Tick()
+tick_obj.suck_blood()
+
+puma_obj=Puma(20,tick_obj)
+puma_obj.tick.suck_blood()
+
+
 # Game Flow
 # Define two Dice
 small_dice_options = list(range(1, 7))  # Max combat strength is 6
